@@ -1,5 +1,5 @@
-import CustomButton from './packages/button/index.js';
-import CustomInput from './packages/input/index.js';
+import CustomButton from './packages/custom-button/index.js';
+import CustomInput from './packages/custom-input/index.js';
 
 const components = [
   CustomButton,
@@ -15,6 +15,11 @@ const install = function(Vue, opts = {}) {
 /* 支持使用标签的方式引入 */
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
+}
+
+export {
+  CustomButton,
+  CustomInput,
 }
 
 export default {

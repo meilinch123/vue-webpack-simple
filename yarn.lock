@@ -5134,6 +5134,14 @@ simple-custom-demo@^1.0.6:
     simple-custom-demo "^1.0.5"
     vue "^2.5.11"
 
+simple-custom-demo@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/simple-custom-demo/-/simple-custom-demo-1.0.8.tgz#ed89ee22853108e0b3d59324c49ce95b9f12fd41"
+  integrity sha512-VHFYXVgLevWleTsoblS86uyWyyUso8Yy/++2zGipWC9XEEtA7w0+tTxbXiSDW3rZMLk/JzUmsZkoM2jmtxLNjg==
+  dependencies:
+    simple-custom-demo "^1.0.6"
+    vue "^2.5.11"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
